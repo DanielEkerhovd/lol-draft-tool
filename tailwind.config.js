@@ -4,10 +4,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        sans: ['Rubik', 'sans-serif']
       },
       colors: {
+        dark: '#2C2C2C',
+        light: '#ECECEC',
       },
       screens: {
+        '2xl': '1440px',
       },
     },
   },
